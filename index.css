@@ -1,4 +1,12 @@
-.col1{
+
+@font-face {
+    font-family: woff2;
+    src: url(font/wooff2.woff2);
+  }
+  body{
+    font-family: woff2;
+  }
+  .col1{
 	padding-top: 15%;
     padding-left: 8%;
     color: white;
@@ -20,10 +28,14 @@
     font-size: 19px;
     line-height: 1.3333333;
     border-radius: 6px;
-    background-color: #eb4406;
+    background-color: #F0483E;
     font-weight: 600;
-    border-color: #eb4406;
+    border-color: #F0483E;
     margin-top: 5%;
+    color: white;
+}
+.cont1{
+    padding-bottom: 3%;
 }
 .formc{
     width: 70%;
@@ -31,11 +43,12 @@
 }
 
 .connected{
-	color: #eb4406;
+	color: #Fd5A61;
 }
 .row1{
 	margin-bottom: 8%;
 }
+
 .img1{
 	padding-top: 21%;
 }
@@ -74,4 +87,86 @@
 }
 .top-notch{
     padding-left: 7%;
+}
+.cont3h1{
+    font-size: 42px;
+    /* text-align: center; */
+    padding-left: 16%;
+    font-weight: 700;
+    line-height: 1.7;
+    padding-top: 9%;
+    padding-bottom: 8%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 220px;
+    margin: 0px;
+    text-align: center;
+    line-height: 167px;
+    font-size: 30px;
+  }
+
+.row5{
+    padding-top: 6%;
+}
+#img11{
+    width: 55px;
+    height: 55px;
+    background-size: 550px auto;
+    transform: translate(-50%,-50%); 
+    background-image: url(../web3/images/iot-sprite.png);
+    margin: 0px;
+}
+
+  
+
+.cont3{
+    padding-bottom: 10%;
+}
+.cont4 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+.sec1left{
+    padding-top: 14%;
+    padding-left: 14%;
+}
+.device{
+    color: #5654F7;
+    font-size: 19px;
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+.sec1left h2{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.enables{
+    font-size: 18px;
+    padding-top: 2%;
+    font-weight: 500;
+}
+.secimg{
+    padding-left: 3%;
+}
+.sec2img{
+    padding-left: 7%;
+    padding-top: 4%;
+
+}
+.cont4{
+    padding-bottom: 5%;
+}
+.sec3img{
+    padding-left: 3%;
+    padding-top: 8%;
+
 }
