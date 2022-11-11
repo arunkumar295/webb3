@@ -3,27 +3,27 @@
     font-family: woff2;
     src: url(font/wooff2.woff2);
   }
-  body{
+body {
     font-family: woff2;
-  }
-  .col1{
+}
+.col1 {
 	padding-top: 15%;
     padding-left: 8%;
     color: white;
 }
-.col1 h1{
+.col1 h1 {
 	font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
 }
-.para1{
+.para1 {
 	margin: 0 0 10px;
     font-size: 18px;
     font-weight: 600;
     padding-top: 3%;
     line-height: 1.6;
 }
-.btn1{
+.btn1 {
 	padding: 10px 16px;
     font-size: 18px;
     line-height: 1.3333333;
@@ -34,14 +34,14 @@
     margin-top: 5%;
     color: white;
 }
-.cont1{
+.cont1 {
     padding-bottom: 3%;
 }
-.formc{
+.formc {
     width: 70%;
     height: 40px;
 }
-.formsub{
+.formsub {
     width: 70%;
     height: 40px;
     padding: 10px 16px;
@@ -53,9 +53,9 @@
     border-color: #F0483E;
     margin-top: 5%;
     color: white;
-    
 }
-.formcc ,.formcs{
+.formcc ,
+.formcs {
     margin-top: 5%;
     width: 70%;
     height: 40px;
@@ -68,61 +68,62 @@
     line-height: 1.6;
 }
 
-.connected{
+.connected {
 	color: #Fd5A61;
 }
-.row1{
+.row1 {
 	margin-bottom: 8%;
 }
 
-.img1{
+.img1 {
 	padding-top: 21%;
-    padding-left: 5%;
+    padding-left: 5%;background-color: white;
 }
-.col3{
+.col3 {
 	padding-top: 5%;
 	text-align: center;
 }
-.col3 h1{
+.col3 h2 {
 	font-weight: 700;
 }
-.img2{
+.img2 {
     padding-left: 5%;
     padding-top: 5%;
 }
-.col5{
+.col5 {
     padding-top: 4%;
     padding-left: 4%;
 }
-.connect{
+.connect {
     padding-left: 5%;
     font-weight: 700;
 }
-.col5 p{
+.col5 p {
     padding-left: 17%;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
 }
-.cont2{
+.cont2 {
     margin-bottom: 8%;
 }
-.col6 h1{
+.col6 h1 {
     font-size: 36px;
     font-weight: 600;
     line-height: 1.6;
 }
-.top-notch{
+.top-notch {
     padding-left: 7%;
 }
-.cont3h1{
+.cont3{
+    text-align: center;
+}
+.cont3h1 {
     font-size: 42px;
-    /* text-align: center; */
-    padding-left: 16%;
     font-weight: 700;
     line-height: 1.7;
-    padding-top: 9%;
     padding-bottom: 8%;
+    padding-top: 5%;
 }
 .flex-container {
     display: flex;
@@ -130,32 +131,25 @@
     flex-wrap: wrap;
 }
 .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: #f7f6ff;
     width: 220px;
-    margin: 0px;
+    margin: 22px;
     text-align: center;
     line-height: 167px;
     font-size: 30px;
-  }
+}
+.flexcont h3 {
+    text-align: center;
+    font-size: 18px;
+}
 
-.row5{
+.row5 {
     padding-top: 6%;
 }
-#img11{
-    width: 55px;
-    height: 55px;
-    background-size: 550px auto;
-    transform: translate(-50%,-50%); 
-    background-image: url(../web3/images/iot-sprite.png);
-    margin: 0px;
-}
-
-  
-
-.cont3{
+.cont3 {
     padding-bottom: 10%;
 }
-.menubtn{
+.menubtn {
     width: 121%;
     border-color: white;
     color: black;
@@ -164,85 +158,79 @@
     border: 2px solid transparent;
     font-size: 15px;
     padding: 7px 20px;
-   
 }
-.cont4 h1{
+.compre {
     font-size: 40px;
     text-align: center;
     padding-top: 6%;
     padding-bottom: 4%;
 }
-.sec1left{
+.sec1left {
     padding-top: 14%;
     padding-left: 14%;
 }
-.device{
+.device {
     color: #5654F7;
     font-size: 16px;
-    
     padding-bottom: 1%;
 }
-.sec1left h2{
+.sec1left h2 {
     font-size: 35px;
-    
-
 }
-.enables{
+.enables {
     font-size: 17px;
     padding-top: 2%;
     line-height: 1.8;
-    
 }
 .secimg{
     padding-left: 3%;
 }
-.sec2img{
+.sec2img {
     padding-left: 7%;
     padding-top: 4%;
 
 }
-.cont4{
+.cont4 {
     padding-bottom: 5%;
 }
-.sec3img{
+.sec3img {
     padding-left: 3%;
     padding-top: 8%;
-
 }
-.sec7img{
+.sec7img {
     padding-top: 11%;
 }
-.sec8img{
+.sec8img {
     padding-left: 7%;
     padding-top: 7%;
 }
-.sec10img{
+.sec10img {
     padding-left: 10%;
     padding-top: 19%;
 }
-.cont5{
+.cont5 {
     text-align: center;
     margin-top: 3%;
     margin-bottom: 8%;
 }
-.cont5h1{
+.cont5h2 {
     line-height: 1.35;
     font-size: 40px;
 }
-.cont5p{
+.cont5p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 17px;
     line-height: 1.6;
     padding-top: 1%;
 }
-.cont5img{
+.cont5img {
     padding-top: 6%;
 }
-.cont5 h4{
+.cont5 h4 {
     font-size: 17px;
 }
-.btn2{
+.btn2 {
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;
@@ -253,35 +241,116 @@
     color:black;
     width: 18%;
     height: 7%;
-
 }
-.global{
+.global {
     color: #5654F7;
 }
-.cont6{
+.cont6 {
     text-align: center;
     padding-bottom: 5%;
 }
-.cont6img{
+.cont6img {
     padding-top: 7%;
 }
-.cont6h1{
+.cont6h1 {
     font-size: 40px;
     line-height: 1.35;
     padding-top: 2%;
 }
-.cont6p{
+.cont6p {
     font-size: 20px;
     line-height: 1.6;
     padding-top: 1%;
 }
-.cont6h4{
+.cont6h4 {
     color: #263d88;
     font-size: 26px;
     line-height: 38px;
     padding-top: 3%;
 }
-.cont7{
+.cont7 {
     text-align: center;
     padding-top: 8%;
+    padding-bottom: 5%;
 }
+@media screen and (max-width:1200px) {
+    .cont3h1,
+    .compre,
+    .col1 h1 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .col3 h2,
+    .col8 h2,
+    .cont5h2,
+    .col11,
+    .col12{
+        font-size: 39px;
+        line-height: 1.35;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .col-lg-6,
+    .col-lg-12,
+    .col-lg-5,
+    .col-lg-7{
+        text-align: center;
+        padding-left: 0px!important;
+    }
+    .cont3h1,
+    .compre, 
+    .c0l1 h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .col3 h2,
+    .col8 h2,
+    .cont5h2,
+    .col11,
+    .col12{
+        font-size: 33px;
+        line-height: 42px;
+    }
+    .formcc,
+    .formcs
+    .formc{
+        width: 50%;
+        height: 51px;
+        margin-left: 30%;
+    }
+
+    
+  }
+  @media screen and (max-width: 640px) {
+    .col-lg-6,
+    .col-lg-12,
+    .col-lg-5,
+    .col-lg-7{
+        text-align: center;
+        padding-left: 0px!important;
+        
+    }
+    .cont3h1,
+    .col1 h1,
+    .compre {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .col3 h2,
+    .col8 h2,
+    .cont5h2,
+    .col11,
+    .col12{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .formcc,
+    .formcs,
+    .formc{
+        width: 50%;
+        height: 51px;
+        margin-left: 30%
+    }
+  }
