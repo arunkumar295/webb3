@@ -2,9 +2,12 @@
 @font-face {
     font-family: woff2;
     src: url(font/wooff2.woff2);
-  }
+}
 body {
     font-family: woff2;
+}
+.cont1{
+    background: linear-gradient(87deg,#4525b1 36%,#180346);
 }
 .col1 {
 	padding-top: 15%;
@@ -67,7 +70,6 @@ body {
     padding-top: 3%;
     line-height: 1.6;
 }
-
 .connected {
 	color: #Fd5A61;
 }
@@ -77,7 +79,7 @@ body {
 
 .img1 {
 	padding-top: 21%;
-    padding-left: 5%;background-color: white;
+    padding-left: 5%;
 }
 .col3 {
 	padding-top: 5%;
@@ -142,7 +144,6 @@ body {
     text-align: center;
     font-size: 18px;
 }
-
 .row5 {
     padding-top: 6%;
 }
@@ -188,7 +189,6 @@ body {
 .sec2img {
     padding-left: 7%;
     padding-top: 4%;
-
 }
 .cont4 {
     padding-bottom: 5%;
@@ -319,10 +319,8 @@ body {
         width: 50%;
         height: 51px;
         margin-left: 30%;
-    }
-
-    
-  }
+    } 
+}
   @media screen and (max-width: 640px) {
     .col-lg-6,
     .col-lg-12,
